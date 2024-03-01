@@ -42,6 +42,7 @@ git stash apply ---恢复工作区但是stash内容并不删除
 git stash pop ---恢复工作区且stash内容删除
 git stash list ---查看stash内容
 git cherry-pick <commit的sha号> ---应该在stash下用于复制其他分支下的commit到当前分支
+git push origin <分支名> ---往远程仓库推送分支上的修改
 
 vim <文件名.后缀> ---编辑文件 i插入模式 esc切换模式 命令行模式下:wq保存并退出
 cp 文件名或源目录 目标文件或目标目录 ---赋值文件或目录下所有文件
