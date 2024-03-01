@@ -24,8 +24,7 @@ git remote add origin git@github.com:2twentyto2/opp-git.git ---在github上添�
 git push，把本地库的内容推送到远程，实际上是把当前分支master推送到远程库
 -u参数把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
 git push origin master把本地master分支的最新修改推送至GitHub
-git remote -v ---查看远程库信息
-
+git remote -v ---查看远程库信息，结果显示了可以抓取和推送的远程库的地址。如果没有推送权限，就看不到push的地址。
 
 git checkout -b <分支名> ---创建并切换分支 == git branch <分支名> ---创建分支
 			    		      git checkout <分支名> ---切换分支
