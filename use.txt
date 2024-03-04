@@ -63,3 +63,6 @@ cp 文件名或源目录 目标文件或目标目录 ---赋值文件或目录下
 clear ---清屏
 git tag <tag名> ---给当前分支打上标签
 git tag ---查看标签名
+git tag <tag名> <版本sha号> ---给该sha号的commit打上标签
+git show <tag名> ---查看标签信息
+git tag -a <tag名> -m <说明信息> <sha号> ---给该sha号的commit打上标签同时附上说明
