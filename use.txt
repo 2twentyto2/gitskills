@@ -53,6 +53,7 @@ git cherry-pick <commit的sha号> ---应该在stash下用于复制其他分支�
 git push origin <分支名> ---往远程仓库推送分支上的修改
 
 git pull ---用于抓取远程仓库上当前分支上其他同名分支推送的内容
+git pull origin <分支名> ---用于当前分支拉取远程库上不同分支的文件内容
 如果git pull提示no tracking information，则说明本地分支和远程分支的链接关系没有创建，
 用命令git branch --set-upstream-to <分支名> origin/<分支名>。
 本地创建和远程分支对应的分支，使用git checkout -b <分支名> origin/<分支名>，本地和远程分支的名称最好一致
