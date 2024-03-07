@@ -12,6 +12,6 @@ for while迭代循环 时间复杂度n
     2.省略所有系数
     3.嵌套循环时使用乘法
 2.判断渐近上界
-![alt text](image.png)
+![alt text](1.png)
 常数阶<对数阶<线性阶<线性对数阶<平方阶<指数阶<阶乘阶
-![alt text](image-1.png)
+![alt text](2.png)
