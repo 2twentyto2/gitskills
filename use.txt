@@ -84,3 +84,8 @@ git push origin :<标签名> ---推送空标签==删除远程库上的标签
 删除本地标签 git tag -d 标签名
 强制删除本地标签 git tag -D 标签名
 删除远程标签 git push 远程仓库名 :标签名
+
+source指令用于执行shell脚本 source filepath<脚本名>
+echo 用于打印
+命令行加sudo用于以root强制执行
+./和sh filepath<脚本名>都可以用于运行脚本 但是脚本中变量并未传回给shell中，而source指令则可以将脚本中的变量存储在shell中
